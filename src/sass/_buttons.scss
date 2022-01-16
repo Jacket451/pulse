@@ -1,0 +1,58 @@
+.button {
+    background-color: $R;
+    width: 145px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    margin-top: 2px;
+    transition: 0.3s;
+    &_main {
+        width: 303px;
+        height: 54px;
+        font-size: 16px;
+    }
+    &__submit {
+        height: 58px;
+        width: 100%;
+        background-color: #C70101;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 5px;
+        transition: 0.3s;
+        &:hover {
+            transition: 0.3s;
+            background-color: #9f0101;
+        }
+        &:active {
+            transition: 0.3s;
+            background-color: #b31515;
+        }
+    }
+    &_mini {
+        width: 135px;
+        height: 44px;
+        background: #C70101;
+        font-weight: 500;
+        font-size: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &:hover {
+        transition: 0.3s;
+        background-color: #9f0101;
+    }
+    &:active {
+        transition: 0.3s;
+        background-color: #b31515;
+    }
+}

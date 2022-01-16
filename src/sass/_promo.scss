@@ -1,0 +1,63 @@
+.promo {
+    min-height: 650px;
+    padding: 21px 0 93px 0;
+    background: url(../img/1First/running-girl-bg.jpg) center (center/cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 90px;
+    }
+    &__header {
+        font-weight: 700;
+        font-size: 42px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__subheader {
+        font-weight: 500;
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 5px;
+    }
+    &__icons {
+        margin-top: 50px;
+        margin-bottom: 67px;
+        display: flex;
+        justify-content: space-between;
+        width: 425px;
+    }
+    &__icon {
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        color: #FFFFFF;
+        width: 176px; 
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+    &__link {
+        margin-top: 18px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+        a {
+            color: hsl(0, 0%, 100%);
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+        a:hover {
+            color: blue;
+            opacity: 75%;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+        a:active {
+            color: orange;
+        }
+    }
+}

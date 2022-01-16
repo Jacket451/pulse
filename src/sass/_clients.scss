@@ -1,0 +1,64 @@
+.clients {
+    padding: 80px 0 30px 0;
+    &__main_massage {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        &_block {
+            width: 680px;
+            &_name {
+                margin-top: 60px;
+                font-weight: 700;
+                font-size: 18px;
+            }
+            &_marathon {
+                font-weight: 500;
+                font-size: 14px;
+                color: #646464;
+                text-decoration: none;
+                transition: 0.5s;
+                &:hover {
+                    color: #646464;
+                    transition: 0.5s;
+                    text-decoration: underline blue;
+                }
+                &:active {
+                    color: $R;
+                }
+            }
+            &_marathon {
+                font-weight: 500;
+                font-size: 14px;
+                color: #646464;
+            }
+            &_text_big {
+                margin-top: 10px;
+                font-weight: 300;
+                font-size: 16px;
+                color: #0D0D0D;
+            }
+            &_text {
+                margin-top: 30px;
+                font-weight: 300;
+                font-size: 16px;
+                color: #0D0D0D;
+            }
+        }
+        &_img {
+            min-width: 160px;
+            min-height: 160px;
+            margin-right: 60px;
+            border-radius: 100%;
+        }
+        &_img_modificate {
+            margin-bottom: 75px;
+        }
+    }
+    .tittle {
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #0D0D0D;
+    }
+}

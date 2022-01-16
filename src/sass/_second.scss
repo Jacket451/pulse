@@ -1,0 +1,63 @@
+.second {
+    min-height: 473px;
+    padding: 70px 0 85px 0;
+    background-color: #F6F6F6;
+    &__icons {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: baseline;
+        .second__icon_animated {
+            animation: heartbeat 2s ease infinite;
+            // animation-name: heartbeat;
+            // animation-duration: 2s;
+            // animation-timing-function: ease;
+            // animation-iteration-count: infinite;
+        }
+    }
+    &__icon {
+        width: 230px;
+        img {
+            display: block;
+            width: 70px;
+            margin: 0 auto;
+            margin-top: 65px;
+        }
+        .health__text {
+            margin-top: 20px;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 18px;
+            text-align: center;
+            a {
+                font-weight: 300;
+                font-size: 14px;
+                text-decoration: underline;
+                color: #FF0000;
+            }
+            a:hover {
+                color: blue;
+                opacity: 75%;
+                transition: 0.3s;
+                text-decoration: none;
+            }
+            a:active {
+                color: orange;
+            }
+        }
+        .health__text__main {
+            margin-top: 30px;
+            color: #0D0D0D;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 29px;
+            text-align: center;
+        }
+    }
+    .text__main {
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        color: #0D0D0D;
+    }
+}
